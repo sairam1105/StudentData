@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Html CRUD with Pure JavaScript
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Student Id</label>
+                        <input type="text" name="Student Id" id="Student Id">
+                    </div>
+                    <div>
+                        <label>Student Name</label>
+                        <input type="text" name="Student Name" id="Student Name">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" name="Email" id="Email">
+                    </div>
+                    <div>
+                        <label>class</label>
+                        <input type="text" name="class" id="class">
+                    </div>
+                    <div>
+                        <label>Enrollment year</label>
+                        <input type="text" name="Enrollment year" id="Enrollment year">
+                    </div>
+                    <div>
+                        <label>city</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div>
+                        <label>country</label>
+                        <input type="text" name="country" id="country">
+                    </div>
+                    <button type="button">save</button>
+                    <button class="clear">clear</button>
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="Student Data">
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Student Name</th>
+                            <th>Email</th>
+                            <th>class</th>
+                            <th>Enrollment year</th>
+                            <th>city</th>
+                            <th>country</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="Basic2.js"></script>
+</body>
+
+</html>
